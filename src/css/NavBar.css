@@ -1,0 +1,58 @@
+.links {
+  color: #f5f6f7;
+  text-decoration: none;
+  font-family: "MerriWeather-Bold";
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-right: 3rem;
+  display: inline-block;
+}
+
+.links:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "MerriWeather-Bold";
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #eda522;
+  transition: width 0.3s;
+}
+.links:hover::after {
+  width: 100%;
+}
+
+.divider {
+  font-family: "MerriWeather-Bold";
+  font-weight: bold;
+  font-size: 2rem;
+  padding-right: 0.7rem;
+}
+.lastNav {
+  margin-right: 2rem;
+}
+
+.NavCointaniner {
+  padding-top: 2rem;
+}
+
+.icon {
+  margin-left: 2rem;
+}
+
+.Dropdown {
+  margin-top: 7px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.Dropdown:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
